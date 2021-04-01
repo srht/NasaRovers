@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IRoverAction.cs" />
+    <Compile Include="Models\PlateuScale.cs" />
     <Compile Include="Models\Rover.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoverAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
